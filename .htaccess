@@ -1,0 +1,11 @@
+RewriteEngine On
+#DirectoryIndex index.php
+#RewriteBase /beejee
+#RewriteRule ^(.*)style(.*)$ view/style.css
+#RewriteRule ^(.*)$ index.php
+
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+

@@ -1,0 +1,140 @@
+@font-face {
+    font-family: DancingSuperserif; /* Гарнитура шрифта */
+    src: url(fonts/DancingSuperserif.ttf); /* Путь к файлу со шрифтом */
+}
+
+* {
+    /*transition: 3s ease-in-out;*/
+    padding: 1px 1px 1px 1px;
+    margin:  1px 1px 1px 1px;
+    font-family: DancingSuperserif;
+    font-size: 105%;
+    color: #2F2726;
+}
+
+body {
+    /*    background-color: #b3e5cc;*/
+    background: rgb(179,229,204);
+    background: linear-gradient(167deg, rgba(179,229,204,1) 0%, rgba(236,224,138,1) 97%) no-repeat;
+
+}
+.wrapper {
+    width: 100%;
+    height: auto    ;
+    /*border: 1px solid black;*/
+    /*margin: auto;*/
+}
+
+
+.character_left {
+    float: left;
+
+}
+
+.character_left > p {
+    font-size: 90%;
+    font-style: italic;
+}
+
+.character_right {
+    float: right;
+    width: auto;
+    height: 100px;
+    border: 1px dotted black;
+}
+
+.attribute {
+    padding: 1px 1px 1px 1px;
+    margin:  1px 1px 1px 1px;
+}
+.attribute_name {
+    margin-bottom: 1px;
+    margin-top: 5px;
+}
+
+
+.skill > input,button, .attribute > input,button {
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px gray;
+}
+
+skill > input:hover,button:hover, .attribute > input:hover,button:hover {
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    box-shadow: 0px 2px 10px gray;
+}
+
+input:hover,button:hover {
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    box-shadow: 0px 2px 10px gray;
+}
+
+input,button {
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px gray;
+}
+
+.attribute_text {
+    width: 60%;
+    font-size: 190%;
+}
+
+.attribute > button {
+    float: right;
+    width: 15%;
+}
+
+.skill_text {
+    width: 100%;
+}
+
+label , .small_text{
+    font-size: 50%;
+    display: inline-block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    transition: 3s ease-in-out;
+}
+
+td {
+    /*border: 1px solid black;*/
+    border-bottom: 1px solid #7c3d3d;
+}
+
+.skill_value {
+    float: right;
+}
+
+.error_code {
+    color: red;
+}
+
+.notification {
+        color: green;
+}
+
+.sort_link {
+    text-decoration: underline;
+}
+
+.sort_link:hover {
+    cursor: pointer;
+}
+
+.small_link {
+    font-size: small;
+}
+
+#label {
+    font-size: larger;
+}
